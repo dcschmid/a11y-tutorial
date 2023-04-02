@@ -10,6 +10,7 @@
     "astro": "astro"
   },
   "devDependencies": {
+    "@astro-community/astro-embed-youtube": "^0.2.2",
     "@astrojs/mdx": "^0.18.2",
     "@astrojs/preact": "^2.1.0",
     "@astrojs/rss": "^2.3.2",
@@ -20,6 +21,8 @@
     "preact": "^10.6.5",
     "prettier": "^2.8.7",
     "prettier-plugin-astro": "^0.8.0",
+    "remark-toc": "^8.0.1",
     "sass": "^1.60.0"
-  }
+  },
+  "dependencies": {}
 }
