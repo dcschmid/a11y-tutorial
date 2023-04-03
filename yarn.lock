@@ -66,7 +66,7 @@
 
 "@astrojs/mdx@^0.18.2":
   version "0.18.2"
-  resolved "https://registry.npmjs.org/@astrojs/mdx/-/mdx-0.18.2.tgz"
+  resolved "https://registry.yarnpkg.com/@astrojs/mdx/-/mdx-0.18.2.tgz#1d1a2c30736c66169baabc635d7ab557fc446b0e"
   integrity sha512-eSR6R62I5cwM6AH8r4UhyBwcV/KKLaZ2siXDA9QR9O4uzUBRnT4gwvoGOvaqpjZCvdNJ2ThaVjePH4DFvxFhaQ==
   dependencies:
     "@astrojs/markdown-remark" "^2.1.1"
@@ -711,6 +711,11 @@
   dependencies:
     "@types/unist" "*"
 
+"@types/node@^18.0.0":
+  version "18.15.11"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.15.11.tgz#b3b790f09cb1696cffcec605de025b088fa4225f"
+  integrity sha512-E5Kwq2n4SbMzQOn6wnmBjuK9ouqlURrcZDVfbo9ftDDTFt3nk7ZKK4GMOzoYgnpQJKcxwQw+lGaBvvlMo0qN/Q==
+
 "@types/parse5@^6.0.0":
   version "6.0.3"
   resolved "https://registry.npmjs.org/@types/parse5/-/parse5-6.0.3.tgz"
@@ -817,6 +822,19 @@ astring@^1.8.0:
   version "1.8.4"
   resolved "https://registry.npmjs.org/astring/-/astring-1.8.4.tgz"
   integrity sha512-97a+l2LBU3Op3bBQEff79i/E4jMD2ZLFD8rHx9B6mXyB2uQwhJQYfiDqUwtfjF4QA1F2qs//N6Cw8LetMbQjcw==
+
+astro-auto-import@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/astro-auto-import/-/astro-auto-import-0.2.1.tgz#bf7d07d2a57d51187f5fa1356b3da6e022cc7415"
+  integrity sha512-UDBdJ2IQs8fWfDysFu63PY+Ue96vo7ce6YZzQ/YXdPq+MG2/AIL0+IlMuWdmyWmsuG2qVmRCWtlDNcPKRSu3Vg==
+  dependencies:
+    "@types/node" "^18.0.0"
+    acorn "^8.8.0"
+
+astro-mdx-code-blocks@^0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/astro-mdx-code-blocks/-/astro-mdx-code-blocks-0.0.3.tgz#c7c79dfeb3131125c6bf41b7bace68931ffb7bf6"
+  integrity sha512-W1DCP6JjTdU6+7NULnyZ9YmKDqE2RZF87hhJ1IAtrBpACuqel1DLfGtefR5z2L1ATGvvNIEV+TZCjnQfn+SomQ==
 
 astro-navbar@^1.1.5:
   version "1.1.5"
