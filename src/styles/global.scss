@@ -55,8 +55,22 @@ img {
 }
 
 table {
-    width: fit-content;
+    width: 100%;
     border-collapse: collapse;
+    table-layout: fixed;
+}
+
+thead {
+    @media screen and (max-width: 600px) {
+        border: none;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+    }
 }
 
 th {
@@ -70,4 +84,23 @@ th {
     padding: 1rem;
     border: 1px solid #ccc;
     text-align: left;
+}
+
+tr {
+    @media screen and (max-width: 600px) {
+        display: block;
+    }
+}
+
+td {
+    @media screen and (max-width: 600px) {
+        display: block;
+
+        &::before {
+            content: attr(data-label);
+            font-weight: bold;
+            text-transform: uppercase;
+            display: block;
+        }
+    }
 }
