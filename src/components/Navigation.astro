@@ -76,6 +76,7 @@ import ThemeIcon from './ThemeIcon.astro'
   .navigation {
     display: flex;
     flex-direction: column;
+    list-style: none;
 
     @media screen and (min-width: 1024px) {
       flex-direction: row;
@@ -107,5 +108,9 @@ import ThemeIcon from './ThemeIcon.astro'
 
   dropdownItems {
     position: absolute;
+  }
+
+  ul {
+    list-style: none;
   }
 </style>
