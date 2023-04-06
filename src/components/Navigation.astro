@@ -1,10 +1,11 @@
 ---
 import { Astronav, MenuItems, MenuIcon, Dropdown, DropdownItems } from 'astro-navbar'
+import Logo from './Logo.astro'
 ---
 
 <Astronav>
   <nav class="navigationRoot">
-    <a href="/">A11y Tutorials</a>
+    <a class="navigationLogo" href="/"><Logo /></a>
     <div class="menuIconRoot">
       <MenuIcon class="menuIcon" />
     </div>
@@ -47,6 +48,12 @@ import { Astronav, MenuItems, MenuIcon, Dropdown, DropdownItems } from 'astro-na
     display: flex;
     justify-content: space-between;
     width: 100%;
+    align-items: center;
+  }
+
+  .navigationLogo {
+    height: 45px;
+    width: 150px;
   }
 
   .menuIconRoot {
