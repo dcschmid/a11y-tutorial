@@ -1,11 +1,7 @@
 html {
-    background-color: #f1f5f9;
+    background-color: #0d0950;
+    color: #fff;
     font-family: sans-serif;
-
-    &.dark {
-        background-color: #0d0950;
-        color: #fff;
-    }
 }
 
 body {
@@ -85,6 +81,26 @@ ol {
     padding-left: 40px;
 }
 
+.accordion__item h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.accordion__item:last-of-type .accordion__header,
+.accordion__item:only-of-type .accordion__header {
+    border: 2px solid #fff !important;
+}
+
+.accordion__panel {
+    border-left: 2px solid #fff !important;
+    border-right: 2px solid #fff !important;
+}
+
+.accordion__item:last-of-type .accordion__panel,
+.accordion__item:only-of-type .accordion__panel {
+    border-bottom: 2px solid #fff !important;
+}
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -125,6 +141,11 @@ tr {
 }
 
 td {
+    & > p {
+        margin: 0;
+        padding: 0;
+    }
+
     @media screen and (max-width: 600px) {
         display: block;
 

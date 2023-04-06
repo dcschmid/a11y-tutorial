@@ -752,6 +752,11 @@
   resolved "https://registry.npmjs.org/@vscode/l10n/-/l10n-0.0.11.tgz"
   integrity sha512-ukOMWnCg1tCvT7WnDfsUKQOFDQGsyR5tNgRpwmqi+5/vzU3ghdDXzvIM4IOPdSb3OeSsBNvmSL8nxIVOqi2WXA==
 
+accessible-astro-components@^1.6.6:
+  version "1.6.6"
+  resolved "https://registry.yarnpkg.com/accessible-astro-components/-/accessible-astro-components-1.6.6.tgz#151af4e4468c98038e8117914413b9f51852cb70"
+  integrity sha512-He5Y+G7EuNw2CRjiSIeD6HQ1Jxj4+a1ulIw5F4ij1yMGMsCjSnjTMQfjke2yWSzGfjpx5JHwJjfRxnWxbaeuog==
+
 acorn-jsx@^5.0.0:
   version "5.3.2"
   resolved "https://registry.npmjs.org/acorn-jsx/-/acorn-jsx-5.3.2.tgz"
