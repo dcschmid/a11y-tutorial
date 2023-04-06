@@ -1,45 +1,11 @@
 ---
-import { Astronav, MenuItems, MenuIcon, Dropdown, DropdownItems } from 'astro-navbar'
+import { Astronav } from 'astro-navbar'
 import Logo from './Logo.astro'
 ---
 
 <Astronav>
   <nav class="navigationRoot">
     <a class="navigationLogo" href="/"><Logo /></a>
-    <div class="menuIconRoot">
-      <MenuIcon class="menuIcon" />
-    </div>
-    <MenuItems class="menuItems">
-      <ul class="navigation">
-        <li>
-          <Dropdown class="group">
-            <button class="dropdownButton">
-              <span>Tutorials</span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="3"
-                stroke="currentColor"
-                class="dropdownSvg"
-              >
-                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"></path>
-              </svg>
-            </button>
-            <DropdownItems class="dropdownItemsRoot">
-              <div class="dropdownItems">
-                <ul>
-                  <li><a href="/tutorials/grundlagen/1-einleitung">Grundlagen</a></li>
-                  <li>Richtlinien</li>
-                  <li>Gesetze</li>
-                  <li>Mythen und Missverständnisse</li>
-                </ul>
-              </div>
-            </DropdownItems>
-          </Dropdown>
-        </li>
-      </ul>
-    </MenuItems>
   </nav>
 </Astronav>
 
