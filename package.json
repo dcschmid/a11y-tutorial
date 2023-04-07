@@ -20,6 +20,7 @@
     "astro-auto-import": "^0.2.1",
     "astro-mdx-code-blocks": "^0.0.3",
     "astro-navbar": "^1.1.5",
+    "astro-pagefind": "^1.0.1",
     "autoprefixer": "^10.4.14",
     "cssnano": "^6.0.0",
     "preact": "^10.6.5",
