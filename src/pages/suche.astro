@@ -1,0 +1,15 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro'
+import Search from 'astro-pagefind/components/Search'
+const pageTitle = 'Suche'
+---
+
+<BaseLayout pageTitle={pageTitle}>
+  <Search />
+</BaseLayout>
+
+<style lang="scss" is:global>
+  .pagefind-ui__message {
+    color: #fff;
+  }
+</style>

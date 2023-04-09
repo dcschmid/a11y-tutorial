@@ -1,13 +1,12 @@
 ---
 import { Astronav } from 'astro-navbar'
 import Logo from './Logo.astro'
-import Search from 'astro-pagefind/components/Search'
 ---
 
 <Astronav>
   <nav class="navigationRoot">
     <a class="navigationLogo" href="/"><Logo /></a>
-    <Search />
+    <a class="navigationItem" href="/suche">Suche</a>
   </nav>
 </Astronav>
 
@@ -24,38 +23,7 @@ import Search from 'astro-pagefind/components/Search'
     width: 150px;
   }
 
-  #search {
-    --pagefind-ui-scale: 0.75;
-    --pagefind-ui-primary: #0d0950;
-    --pagefind-ui-text: white;
-    --pagefind-ui-background: #08035e;
-    --pagefind-ui-border: white;
-    --pagefind-ui-border-width: 1px;
-    --pagefind-ui-border-radius: 0.25rem;
-    --pagefind-ui-font: sans-serif;
-
-    width: 50%;
-  }
-
-  #search .pagefind-ui__drawer:not(.pagefind-ui__hidden) {
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin-top: 0px;
-    z-index: 9999;
-    padding: 0 2em 1em;
-    overflow-y: auto;
-    box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.1);
-    border-bottom-right-radius: var(--pagefind-ui-border-radius);
-    border-bottom-left-radius: var(--pagefind-ui-border-radius);
-    background-color: var(--pagefind-ui-background);
-  }
-
-  #search .pagefind-ui__result-link {
-    color: var(--pagefind-ui-primary);
-  }
-
-  #search .pagefind-ui__result-excerpt {
-    color: var(--pagefind-ui-text);
+  .navigationItem {
+    text-decoration: none;
   }
 </style>
